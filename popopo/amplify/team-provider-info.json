@@ -20,6 +20,9 @@
       },
       "analytics": {
         "popopo": {}
+      },
+      "function": {
+        "concatenate": {}
       }
     }
   }
