@@ -10,6 +10,17 @@
       "StackName": "amplify-popopo-dev-215537",
       "StackId": "arn:aws:cloudformation:ap-northeast-2:548357944772:stack/amplify-popopo-dev-215537/58d928e0-c655-11ed-94a2-0ab1def1dd48",
       "AmplifyAppId": "d5nkntf5zs9aw"
+    },
+    "categories": {
+      "auth": {
+        "popopo82fd06a2": {}
+      },
+      "api": {
+        "popopo": {}
+      },
+      "analytics": {
+        "popopo": {}
+      }
     }
   }
 }

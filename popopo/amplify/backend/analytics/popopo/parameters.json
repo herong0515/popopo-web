@@ -1,0 +1,21 @@
+{
+    "appName": "popopo",
+    "roleName": "pinpointLambdaRole62f0a7ca",
+    "cloudformationPolicyName": "cloudformationPolicy62f0a7ca",
+    "cloudWatchPolicyName": "cloudWatchPolicy62f0a7ca",
+    "pinpointPolicyName": "pinpointPolicy62f0a7ca",
+    "authPolicyName": "pinpoint_amplify_62f0a7ca",
+    "unauthPolicyName": "pinpoint_amplify_62f0a7ca",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
